@@ -1,0 +1,17 @@
+{
+    "name": "mateuschmitz/roman-numeral-converter",
+    "homepage": "https://github.com/mateuschmitz/roman-numeral-converter",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "7.5.*",
+        "fzaninotto/faker": "1.8.*" 
+    },
+    "autoload": {
+        "psr-4": {
+            "RomanNumeralConvertion\\": ["src/", "tests/"]
+        }
+    }
+}
