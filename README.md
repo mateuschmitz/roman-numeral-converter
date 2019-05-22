@@ -113,5 +113,5 @@ $ docker run -it --rm -v "$PWD":/usr/src/app -w /usr/src/app php:7.2-cli php /us
 ```bash
 # Running directly in the host
 $ cd project_path/
-$ php demo.php [NUMBER_TO_BE_CONVERTED]
+$ php run.php [NUMBER_TO_BE_CONVERTED]
 ```
